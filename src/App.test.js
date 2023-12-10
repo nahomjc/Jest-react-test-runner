@@ -7,7 +7,7 @@ describe("Feedback Form", () => {
     const comment = "The pizza crust was too thick";
     const handleSubmit = jest.fn();
     render(<FeedBackForm onSubmit={handleSubmit} />);
-
+//passing moke function to test FeedBack
     const rangeInput = screen.getByLabelText(/Score:/);
     fireEvent.change(rangeInput, { target: { value: score } });
 
