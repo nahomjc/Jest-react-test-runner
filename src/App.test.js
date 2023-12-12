@@ -38,5 +38,7 @@ describe("Feedback Form", () => {
       score,
       comment: ""
     });
+//The arguments are checked with the same 
+//algorithm that .toEqual uses.
   });
 });
